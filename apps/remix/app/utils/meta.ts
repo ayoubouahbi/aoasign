@@ -7,7 +7,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
 
   return [
     {
-      title: title ? `${i18n._(title)} - Documenso` : 'Documenso',
+      title: title ? `${i18n._(title)} - Documenso` : 'AOASIGN',
     },
     {
       name: 'description',
@@ -16,11 +16,11 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     {
       name: 'keywords',
       content:
-        'Documenso, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
+        'AOASIGN  Professional Electronic Signature Solution.',
     },
     {
       name: 'author',
-      content: 'Documenso, Inc.',
+      content: 'AOASIGN, Inc.',
     },
     {
       name: 'robots',
@@ -28,7 +28,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       property: 'og:title',
-      content: 'Documenso - The Open Source DocuSign Alternative',
+      content: 'AOASIGN  Professional Electronic Signature Solution.',
     },
     {
       property: 'og:description',
